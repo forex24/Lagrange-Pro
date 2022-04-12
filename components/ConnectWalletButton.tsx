@@ -132,7 +132,7 @@ export const ConnectWalletButton: React.FC = () => {
                       onClick={() => {
                         select(wallet.adapter.name)
                         setToggle(true)
-                      }}
+                      }} 
                     >
                       <div className="imgspan">
                         <img
