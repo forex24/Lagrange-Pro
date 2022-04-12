@@ -45,7 +45,7 @@ const Tabs: FunctionComponent<TabsProps> = ({
               className={`balances-nav default-transition relative flex cursor-pointer justify-center whitespace-nowrap pb-4 font-bold hover:opacity-100
                     ${
                       activeTab === tabName
-                        ? `text-th-primary`
+                        ? `active-tab-color`
                         : `text-th-fgd-4 hover:text-th-primary`
                     }
                   `}

@@ -15,66 +15,86 @@
     background: #000000;
 }
 .responsive-design-grid-layout{
-    @include displayflex($fd: row, $ai: center, $jc: center);
-    flex-wrap: wrap;
-    @include media($d: 930px, $fd: column);
+    @include displayflex($fd: column, $ai: center, $jc: center);
+  
 }
 
 // ---------------------General Divs Styles Start-----------------------
-.chart1{
-    @include size($w: clamp(350px, 64.3055vw, 926px), $h: clamp(380px, 36.0416vw, 519px));
-    top: 0;
-    left: 0;
-    background: rgba(27, 27, 31, 1);
-    color: #FFFFFF;
-    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    @include mp($m: 20px 0 0 0);
+.one-line{
+    @include displayflex($fd: row, $ai: center, $jc: center);
+    @include media($d: 930px, $fd: column);
+    .chart1{
+        @include size($w: clamp(350px, 64.3055vw, 926px), $h: clamp(380px, 36.0416vw, 519px));
+        top: 0;
+        left: 0;
+        background: rgba(27, 27, 31, 1);
+        color: #FFFFFF;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        @include mp($m: 20px 0 0 0);
+        @include media($d: 930px, $w: clamp(350px, 75.2688vw, 700px));
+    }
+    .account-info{
+        @include size($w: clamp(300px, 31.25vw, 450px), $h: clamp(380px, 36.0416vw, 519px));
+        background: #000000;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        @include mp($m: 20px 0 0 15px, $p: 0);
+        @include media($d: 930px, $m: 20px 10px 0 10px, $w: clamp(350px, 48.3870vw, 450px));
+    }
 }
-.account-info{
-    @include size($w: clamp(300px, 31.25vw, 450px), $h: clamp(380px, 36.0416vw, 519px));
-    background: #000000;
-    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    @include mp($m: 20px 0 0 15px, $p: 0);
+.two-line{
+    @include displayflex($fd: row, $ai: center, $jc: center);
+    @include media($d: 930px, $fd: column);
+    .order-book-div{
+        @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(385px, 29.8611vw, 430px));
+        @include mp($m: 20px 10px 0 10px, $p: 0px);
+        background: #000000;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        @include media($d: 930px, $w: clamp(350px, 48.3870vw, 450px));
+    }
+    .trade-form-div{
+        @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(380px, 29.8611vw, 430px));
+        @include mp($m: 20px 10px 0 10px, $p: 4px);
+        background: #000000;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        @include media($d: 930px, $w: clamp(350px, 48.3870vw, 450px));
+    }
+    .usdt-usdc-position-div{
+        @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(380px, 29.8611vw, 430px));
+        @include mp($m: 20px 10px 0 10px, $p: 0px);
+        background: #000000;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        @include media($d: 930px, $w: clamp(350px, 48.3870vw, 450px));
+    }
 }
-.order-book-div{
-    @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(385px, 29.8611vw, 430px));
-    @include mp($m: 20px 10px 0 10px, $p: 0px);
-    background: #000000;
-    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-     // @include media($d: 1300px, $p: 0 10px 10px 10px);
+
+.three-line{
+    @include displayflex($fd: row, $ai: center, $jc: center);
+    @include media($d: 930px, $fd: column);
+    .recent-trade-div{
+        @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(380px, 33.84027vw, 481px));
+        @include mp($m: 20px 10px 0 10px, $p: 0);
+        background: #000000;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        @include media($d: 1300px, $p: 0 0 15px 0);
+        @include media($d: 930px, $w: clamp(350px, 48.3870vw, 450px));
+    }
+    .balances-orders-fixed{
+        @include size($w: clamp(300px, 64.375vw, 927px), $h: clamp(380px, 33.84027vw, 481px));
+        @include mp($m: 20px 10px 0 10px, $p: 0px);
+        background: #000000;
+        box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        @include media($d: 930px, $w: clamp(350px, 75.2688vw, 700px));
+    }
 }
-.trade-form-div{
-    @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(380px, 29.8611vw, 430px));
-    @include mp($m: 20px 10px 0 10px, $p: 4px);
-    background: #000000;
-    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-.usdt-usdc-position-div{
-    @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(380px, 29.8611vw, 430px));
-    @include mp($m: 20px 10px 0 10px, $p: 0px);
-    background: #000000;
-    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-.recent-trade-div{
-    @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(380px, 33.84027vw, 481px));
-    @include mp($m: 20px 10px 0 10px, $p: 0);
-    background: #000000;
-    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    @include media($d: 1300px, $p: 0 0 15px 0);
-}
-.balances-orders-fixed{
-    @include size($w: clamp(300px, 64.375vw, 927px), $h: clamp(380px, 33.84027vw, 481px));
-    @include mp($m: 20px 10px 0 10px, $p: 0px);
-    background: #000000;
-    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
+
+
 // ---------------------General Divs Styles End-------------------------
 
 
@@ -168,6 +188,10 @@
     .buy-sell-title{
         @include mp($m: 14px 0 0 0);
         border-bottom: 1px solid rgba(90, 90, 90, 1);
+        .active-buy-sel-border{
+            border-bottom: 2px solid #06CB3D!important;
+            border-radius: 0px;
+        }
         .buy-sell-buttons{
             border: 0px solid red;
             @include font( $fm: "Roboto", $fw: 500, $fs: clamp(16px, 1.1361vw, 25px), $c: #FFFFFF, $ta: left, $ls: 0.3px);
@@ -321,6 +345,9 @@
     .balances-nav{
         @include mp($p: 25px 0 23px 0, $m: 0px auto);
         @include font( $fm: "Roboto", $fw: 500, $fs: clamp(12px, 1.3888vw, 20px), $c: #FFFFFF, $ta: left, $ls: 0.3px);
+    }
+    .active-tab-color{
+        color: #CCC51B;
     }
 }
 
