@@ -6,7 +6,7 @@ import {
 } from '@heroicons/react/outline'
 import Input, { Label } from './Input'
 import Button from './Button'
-import Modal from './Modal'
+import Modal from './Modal' 
 import { ElementTitle } from './styles'
 import Tooltip from './Tooltip'
 import { notify } from '../utils/notifications'
