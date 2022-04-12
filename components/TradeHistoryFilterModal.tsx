@@ -16,6 +16,8 @@ import { Popover, Transition } from '@headlessui/react'
 import Checkbox from './Checkbox'
 import dayjs from 'dayjs'
 import DateRangePicker from './DateRangePicker'
+
+//@ts-ignore
 import useMangoStore from 'stores/useMangoStore'
 
 interface TradeHistoryFilterModalProps {

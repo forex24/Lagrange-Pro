@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { JupiterProvider } from '@jup-ag/react-hook'
 import { useEffect } from 'react'
 import useMangoStore from '../stores/useMangoStore'

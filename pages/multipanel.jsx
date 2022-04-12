@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from 'react'
 import Tabs1 from '../components/Tabs1'
-import TopBar from '../components/TopBar'
+import TopBar from 'components/TopBar'
 import Footer from '../components/Footer'
 export default function Multipanel() {
 	const [data, setData] = useState([

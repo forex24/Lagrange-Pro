@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+//@ts-ignore
 import useMangoStore from 'stores/useMangoStore'
 import { useWallet } from '@solana/wallet-adapter-react'
 

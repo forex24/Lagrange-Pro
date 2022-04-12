@@ -1,4 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { useTranslation } from 'next-i18next'
 import { useEffect, useState } from 'react'
 import { ChevronRightIcon } from '@heroicons/react/solid'

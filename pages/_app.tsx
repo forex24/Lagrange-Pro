@@ -1,4 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheckyarn 
 import Head from 'next/head'
 import { ThemeProvider } from 'next-themes'
 import '../node_modules/react-grid-layout/css/styles.css'
@@ -30,7 +33,7 @@ import {
 import useTradeHistory from '../hooks/useTradeHistory'
 import * as Sentry from '@sentry/react'
 import { BrowserTracing } from '@sentry/tracing'
-
+//@ts-ignore
 import { WalletProvider, WalletListener } from 'components/WalletAdapter'
 import { PhantomWalletAdapter } from '@solana/wallet-adapter-phantom'
 import { SolflareWalletAdapter } from '@solana/wallet-adapter-solflare'

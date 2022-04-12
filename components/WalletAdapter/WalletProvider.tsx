@@ -7,6 +7,7 @@ import {
   WalletReadyState,
 } from '@solana/wallet-adapter-base'
 import { Connection, PublicKey, Transaction } from '@solana/web3.js'
+//@ts-ignore
 import { useLocalStorageStringState } from 'hooks/useLocalStorageState'
 import React, {
   FC,

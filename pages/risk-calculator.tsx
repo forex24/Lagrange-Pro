@@ -1,4 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { ChevronUpIcon, RefreshIcon } from '@heroicons/react/outline'
 import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table'
 import { Disclosure } from '@headlessui/react'

@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import TopBar from '../components/TopBar'
@@ -14,6 +17,7 @@ import DepositMsrmModal from '../components/DepositMsrmModal'
 import WithdrawMsrmModal from '../components/WithdrawMsrmModal'
 import { useState } from 'react'
 import { LinkButton } from '../components/Button'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import { msrmMints, ZERO_BN } from '@blockworks-foundation/mango-client'
 import useFees from '../hooks/useFees'

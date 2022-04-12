@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import React, {
   Fragment,
   useCallback,
@@ -20,40 +22,61 @@ import {
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import { nativeToUi, ZERO_BN } from '@blockworks-foundation/mango-client'
+//@ts-ignore
 import useMangoStore, { serumProgramId, MNGO_INDEX } from 'stores/useMangoStore'
+//@ts-ignore
 import PageBodyContainer from 'components/PageBodyContainer'
+//@ts-ignore
 import TopBar from 'components/TopBar'
+//@ts-ignore
 import AccountOrders from 'components/account_page/AccountOrders'
+//@ts-ignore
 import AccountHistory from 'components/account_page/AccountHistory'
+//@ts-ignore
 import AccountsModal from 'components/AccountsModal'
+//@ts-ignore
 import AccountOverview from 'components/account_page/AccountOverview'
+//@ts-ignore
 import AccountInterest from 'components/account_page/AccountInterest'
+//@ts-ignore
 import AccountFunding from 'components/account_page/AccountFunding'
+//@ts-ignore
 import AccountNameModal from 'components/AccountNameModal'
+//@ts-ignore
 import { IconButton, LinkButton } from 'components/Button'
+//@ts-ignore
 import EmptyState from 'components/EmptyState'
+//@ts-ignore
 import Loading from 'components/Loading'
+//@ts-ignore
 import Swipeable from 'components/mobile/Swipeable'
+//@ts-ignore
 import Tabs from 'components/Tabs'
+//@ts-ignore
 import { useViewport } from 'hooks/useViewport'
+//@ts-ignore
 import { breakpoints } from 'components/TradePageGrid'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import { PublicKey } from '@solana/web3.js'
+//@ts-ignore
 import CloseAccountModal from 'components/CloseAccountModal'
+//@ts-ignore
 import { notify } from 'utils/notifications'
-import {
-  actionsSelector,
-  mangoAccountSelector,
-  mangoGroupSelector,
-} from 'stores/selectors'
+//@ts-ignore
+import {actionsSelector,mangoAccountSelector,mangoGroupSelector} from 'stores/selectors'
+//@ts-ignore
 import CreateAlertModal from 'components/CreateAlertModal'
+//@ts-ignore
 import { copyToClipboard } from 'utils'
+//@ts-ignore
 import DelegateModal from 'components/DelegateModal'
 import { Menu, Transition } from '@headlessui/react'
 import { useWallet } from '@solana/wallet-adapter-react'
+//@ts-ignore
 import { handleWalletConnect } from 'components/ConnectWalletButton'
+//@ts-ignore
 import { MangoAccountLookup } from 'components/account_page/MangoAccountLookup'
 
 export async function getStaticProps({ locale }) {

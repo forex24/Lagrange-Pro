@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { useEffect, useMemo, useState, useCallback } from 'react'
 import PageBodyContainer from '../components/PageBodyContainer'
 import TopBar from '../components/TopBar'

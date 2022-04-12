@@ -1,9 +1,13 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { useCallback, useState } from 'react'
 import PageBodyContainer from '../components/PageBodyContainer'
 import TopBar from '../components/TopBar'
 import AccountsModal from '../components/AccountsModal'
 import AccountBorrows from '../components/account_page/AccountBorrows'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import { mangoGroupSelector } from '../stores/selectors'
 import { useTranslation } from 'next-i18next'
