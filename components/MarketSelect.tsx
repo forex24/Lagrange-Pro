@@ -7,6 +7,7 @@ import useLocalStorageState from '../hooks/useLocalStorageState'
 import { useViewport } from '../hooks/useViewport'
 import { breakpoints } from './TradePageGrid'
 import { useTranslation } from 'next-i18next'
+//@ts-ignore
 import useMangoStore from 'stores/useMangoStore'
 
 const MarketSelect = () => {
