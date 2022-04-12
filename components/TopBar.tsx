@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useCallback, useState,useEffect } from 'react'
 import Link from 'next/link'
+// @ts-ignore
 import { ConnectWalletButton } from 'components'
 import { useRouter } from 'next/router'
 

@@ -9,9 +9,12 @@ import React, {
 import { Menu } from '@headlessui/react'
 import { useWallet, Wallet } from '@solana/wallet-adapter-react'
 import { WalletReadyState } from '@solana/wallet-adapter-base'
+// @ts-ignore
 import { notify } from 'utils/notifications'
+// @ts-ignore
 import useMangoStore from 'stores/useMangoStore'
 import { useTranslation } from 'next-i18next'
+// @ts-ignore
 import { WalletSelect } from 'components/WalletSelect'
 import uniqBy from 'lodash/uniqBy'
 

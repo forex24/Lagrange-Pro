@@ -92,11 +92,11 @@ export default function Multipanel() {
 										<div className="pos-abs">{data.posAbs}</div>
 									</div>
 									<div className="bid-offer">
-										<div className="arrow-l"><i class="fa-solid fa-caret-left"></i></div>
+										<div className="arrow-l"><i className="fa-solid fa-caret-left"></i></div>
 										<div className="bid">BID</div>
 										<div className="rfs">RFS</div>
 										<div className="offer">OFFER</div>
-										<div className="arrow-r"><i class="fa-solid fa-caret-right"></i></div>
+										<div className="arrow-r"><i className="fa-solid fa-caret-right"></i></div>
 									</div>
 									<div className="usd-1m-ager">
 										<div className="usd">USD</div>
@@ -106,38 +106,38 @@ export default function Multipanel() {
 									<div className="all-up-down-numbers">
 										<div className="fourthly-num">
 											<div className="one-num">{data.oneNum}</div>
-											<div className="two-num"><i class="fa-solid fa-caret-up"></i> {data.twoNum}</div>
-											<div className="three-num"><i class="fa-solid fa-caret-down"></i> {data.threeNum}</div>
+											<div className="two-num"><i  className="fa-solid fa-caret-up"></i> {data.twoNum}</div>
+											<div className="three-num"><i className="fa-solid fa-caret-down"></i> {data.threeNum}</div>
 											<div className="fourth-num">{data.fourthNum}</div>
 										</div>
 										<div className="fourthly-num">
 											<div className="one-num">{data.oneNum}</div>
-											<div className="two-num"><i class="fa-solid fa-caret-up"></i> {data.twoNum}</div>
-											<div className="three-num"><i class="fa-solid fa-caret-down"></i> {data.threeNum}</div>
+											<div className="two-num"><i  className="fa-solid fa-caret-up"></i> {data.twoNum}</div>
+											<div className="three-num"><i  className="fa-solid fa-caret-down"></i> {data.threeNum}</div>
 											<div className="fourth-num">{data.fourthNum}</div>
 										</div>
 										<div className="fourthly-num">
 											<div className="one-num">{data.oneNum}</div>
-											<div className="two-num"><i class="fa-solid fa-caret-up"></i> {data.twoNum}</div>
-											<div className="three-num"><i class="fa-solid fa-caret-down"></i> {data.threeNum}</div>
+											<div className="two-num"><i  className="fa-solid fa-caret-up"></i> {data.twoNum}</div>
+											<div className="three-num"><i  className="fa-solid fa-caret-down"></i> {data.threeNum}</div>
 											<div className="fourth-num">{data.fourthNum}</div>
 										</div>
 										<div className="fourthly-num">
 											<div className="one-num">{data.oneNum}</div>
-											<div className="two-num"><i class="fa-solid fa-caret-up"></i> {data.twoNum}</div>
-											<div className="three-num"><i class="fa-solid fa-caret-down"></i> {data.threeNum}</div>
+											<div className="two-num"><i className="fa-solid fa-caret-up"></i> {data.twoNum}</div>
+											<div className="three-num"><i  className="fa-solid fa-caret-down"></i> {data.threeNum}</div>
 											<div className="fourth-num">{data.fourthNum}</div>
 										</div>
 										<div className="fourthly-num">
 											<div className="one-num">{data.oneNum}</div>
-											<div className="two-num"><i class="fa-solid fa-caret-up"></i> {data.twoNum}</div>
-											<div className="three-num"><i class="fa-solid fa-caret-down"></i> {data.threeNum}</div>
+											<div className="two-num"><i  className="fa-solid fa-caret-up"></i> {data.twoNum}</div>
+											<div className="three-num"><i  className="fa-solid fa-caret-down"></i> {data.threeNum}</div>
 											<div className="fourth-num">{data.fourthNum}</div>
 										</div>
 										<div className="fourthly-num">
 											<div className="one-num">{data.oneNum}</div>
-											<div className="two-num"><i class="fa-solid fa-caret-up"></i> {data.twoNum}</div>
-											<div className="three-num"><i class="fa-solid fa-caret-down"></i> {data.threeNum}</div>
+											<div className="two-num"><i  className="fa-solid fa-caret-up"></i> {data.twoNum}</div>
+											<div className="three-num"><i  className="fa-solid fa-caret-down"></i> {data.threeNum}</div>
 											<div className="fourth-num">{data.fourthNum}</div>
 										</div>
 										<div className="sub-add">
@@ -146,8 +146,8 @@ export default function Multipanel() {
 										</div>
 										<div className="fourthly-num">
 											<div className="one-num">{data.oneNum}</div>
-											<div className="two-num"><i class="fa-solid fa-caret-up"></i> {data.twoNum}</div>
-											<div className="three-num"><i class="fa-solid fa-caret-down"></i> {data.threeNum}</div>
+											<div className="two-num"><i  className="fa-solid fa-caret-up"></i> {data.twoNum}</div>
+											<div className="three-num"><i  className="fa-solid fa-caret-down"></i> {data.threeNum}</div>
 											<div className="fourth-num">{data.fourthNum}</div>
 										</div>
 									</div>
