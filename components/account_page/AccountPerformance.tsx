@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import dayjs from 'dayjs'
+//@ts-ignore
 import useMangoStore from '../../stores/useMangoStore'
 import { Table, Td, Th, TrBody, TrHead } from '../TableElements'
 import { useTranslation } from 'next-i18next'

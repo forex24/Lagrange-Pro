@@ -22,6 +22,7 @@ import {
   percentFormat,
 } from '../../utils'
 import { floorToDecimal } from '../../utils/index'
+//@ts-ignore
 import useMangoStore, { Orderbook } from '../../stores/useMangoStore'
 import Button, { LinkButton } from '../Button'
 import TradeType from './TradeType'

@@ -13,6 +13,7 @@ import {
 } from '@blockworks-foundation/mango-client'
 
 import TradeHistoryTable from '../TradeHistoryTable'
+//@ts-ignore
 import useMangoStore from '../../stores/useMangoStore'
 import {
   Table,

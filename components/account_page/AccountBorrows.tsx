@@ -4,6 +4,7 @@ import {
   ZERO_I80F48,
   I80F48,
 } from '@blockworks-foundation/mango-client'
+//@ts-ignore
 import useMangoStore from '../../stores/useMangoStore'
 import { useBalances } from '../../hooks/useBalances'
 import {

@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Disclosure } from '@headlessui/react'
 import dynamic from 'next/dynamic'
 import { SwitchHorizontalIcon, XIcon } from '@heroicons/react/outline'
+//@ts-ignore
 import useMangoStore from '../../stores/useMangoStore'
 import { getWeights, PerpMarket } from '@blockworks-foundation/mango-client'
 import { CandlesIcon } from '../icons'

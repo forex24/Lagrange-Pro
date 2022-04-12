@@ -1,10 +1,14 @@
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import React, { Fragment, useState } from 'react'
+//@ts-ignore
 import { settlePnl, settlePosPnl } from 'components/MarketPosition'
+//@ts-ignore
 import Button from 'components/Button'
 import { Transition } from '@headlessui/react'
 import { useTranslation } from 'next-i18next'
+//@ts-ignore
 import Loading from 'components/Loading'
+//@ts-ignore
 import useMangoStore from 'stores/useMangoStore'
 import { useWallet } from '@solana/wallet-adapter-react'
 

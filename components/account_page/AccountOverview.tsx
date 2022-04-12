@@ -4,7 +4,7 @@ import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 import { ExclamationIcon } from '@heroicons/react/solid'
 import { useTranslation } from 'next-i18next'
-
+//@ts-ignore
 import useMangoStore from '../../stores/useMangoStore'
 import { formatUsdValue } from '../../utils'
 import BalancesTable from '../BalancesTable'

@@ -1,5 +1,7 @@
 import { PublicKey } from '@solana/web3.js'
+//@ts-ignore
 import Button from 'components/Button'
+//@ts-ignore
 import Input from 'components/Input'
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'

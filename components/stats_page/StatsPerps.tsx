@@ -1,5 +1,6 @@
 import { PerpMarket } from '@blockworks-foundation/mango-client'
 import { useState, useMemo } from 'react'
+//@ts-ignore
 import useMangoStore from '../../stores/useMangoStore'
 import Chart from '../Chart'
 import BN from 'bn.js'
