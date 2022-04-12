@@ -17,6 +17,7 @@ import PnlText from './PnlText'
 import { settlePnl } from './MarketPosition'
 import MobileTableHeader from './mobile/MobileTableHeader'
 import { useWallet } from '@solana/wallet-adapter-react'
+// @ts-ignore
 import { RedeemDropdown } from 'components/PerpPositions'
 
 const PositionsTable: React.FC = () => {
