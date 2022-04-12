@@ -4,6 +4,7 @@ import useMangoStore from '../stores/useMangoStore'
 import { MoveIcon } from './icons'
 import EmptyState from './EmptyState'
 import { useTranslation } from 'next-i18next'
+ // @ts-ignore 
 import { handleWalletConnect } from 'components/ConnectWalletButton'
 import { useWallet } from '@solana/wallet-adapter-react'
 
