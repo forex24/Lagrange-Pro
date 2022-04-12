@@ -2,6 +2,7 @@ import React, { FunctionComponent, useEffect, useMemo, useState } from 'react'
 import Modal from './Modal'
 import Input, { Label } from './Input'
 import { ElementTitle } from './styles'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import { floorToDecimal, tokenPrecision } from '../utils/index'
 import Loading from './Loading'

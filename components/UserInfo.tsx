@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+//@ts-ignore
+
 import useMangoStore from '../stores/useMangoStore'
 import OpenOrdersTable from './OpenOrdersTable'
 import BalancesTable from './BalancesTable'

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import Button, { LinkButton } from './Button'
 import { notify } from '../utils/notifications'

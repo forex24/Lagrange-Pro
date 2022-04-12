@@ -30,6 +30,7 @@ import {
   SaveIcon,
 } from '@heroicons/react/outline'
 import { fetchHourlyPerformanceStats } from './account_page/AccountOverview'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import Loading from './Loading'
 import { exportDataToCSV } from '../utils/export'

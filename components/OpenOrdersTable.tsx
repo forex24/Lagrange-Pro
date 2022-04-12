@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Button, { IconButton } from './Button'
 import Loading from './Loading'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import { notify } from '../utils/notifications'
 import SideBadge from './SideBadge'

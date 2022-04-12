@@ -1,4 +1,5 @@
 import { PerpMarket } from '@blockworks-foundation/mango-client'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import MarketBalances from './MarketBalances'
 import MarketPosition from './MarketPosition'

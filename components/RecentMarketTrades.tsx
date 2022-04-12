@@ -5,6 +5,7 @@ import useInterval from '../hooks/useInterval'
 import ChartApi from '../utils/chartDataConnector'
 import { ElementTitle } from './styles'
 import { getDecimalCount, isEqual, usdFormatter } from '../utils/index'
+//@ts-ignore
 import useMangoStore, { CLUSTER } from '../stores/useMangoStore'
 import { useViewport } from '../hooks/useViewport'
 import { breakpoints } from './TradePageGrid'

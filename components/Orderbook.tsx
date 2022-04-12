@@ -17,6 +17,7 @@ import {
 import { CumulativeSizeIcon, StepSizeIcon } from './icons'
 import useMarkPrice from '../hooks/useMarkPrice'
 import { ElementTitle } from './styles'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import Tooltip from './Tooltip'
 import GroupSize from './GroupSize'

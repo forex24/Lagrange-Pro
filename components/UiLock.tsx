@@ -1,5 +1,6 @@
 import { LockClosedIcon, LockOpenIcon } from '@heroicons/react/outline'
 import { Transition } from '@headlessui/react'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import ResetLayout from './ResetLayout'
 import Tooltip from './Tooltip'

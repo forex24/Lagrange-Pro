@@ -5,6 +5,7 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 import Input from './Input'
 import { useTranslation } from 'next-i18next'
 import MarketNavItem from './MarketNavItem'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 
 const SwitchMarketDropdown = () => {

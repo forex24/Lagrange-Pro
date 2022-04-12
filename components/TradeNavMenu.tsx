@@ -15,6 +15,7 @@ import {
 } from '@heroicons/react/solid'
 import useLocalStorageState from '../hooks/useLocalStorageState'
 import MarketNavItem from './MarketNavItem'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 
 const initialMenuCategories = [

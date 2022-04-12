@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { useTranslation } from 'next-i18next'
 import { ExclamationIcon } from '@heroicons/react/outline'
-
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import { LinkButton } from '../components/Button'
 import { useViewport } from '../hooks/useViewport'

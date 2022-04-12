@@ -6,6 +6,7 @@ import {
 import Input, { Label } from './Input'
 import AccountSelect from './AccountSelect'
 import { ElementTitle } from './styles'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import {
   getSymbolForTokenMintAddress,

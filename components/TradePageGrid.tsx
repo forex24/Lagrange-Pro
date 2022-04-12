@@ -17,6 +17,7 @@ import UserMarketInfo from './UserMarketInfo'
 import TradeForm from './trade_form/TradeForm'
 import UserInfo from './UserInfo'
 import RecentMarketTrades from './RecentMarketTrades'
+//@ts-ignore
 import useMangoStore from '../stores/useMangoStore'
 import useLocalStorageState from '../hooks/useLocalStorageState'
 import { useViewport } from '../hooks/useViewport'
