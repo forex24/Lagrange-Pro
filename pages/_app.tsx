@@ -43,6 +43,7 @@ import '../styles/homepage.scss'
 import '../styles/tabs.scss'
 import '../styles/multipanel.scss'
 import '../styles/topbar.scss'
+import 'tailwindcss/tailwind.css'
 
 
 const SENTRY_URL = process.env.NEXT_PUBLIC_SENTRY_URL
@@ -158,17 +159,17 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Mango Markets</title>
+        <title>Lagrange</title>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="Mango Markets" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="Mango Markets, Serum, SRM, Serum DEX, DEFI, Decentralized Finance, Decentralised Finance, Crypto, ERC20, Ethereum, Decentralize, Solana, SOL, SPL, Cross-Chain, Trading, Fastest, Fast, SerumBTC, SerumUSD, SRM Tokens, SPL Tokens"
+          content="Lagrange, Serum, SRM, Serum DEX, DEFI, Decentralized Finance, Decentralised Finance, Crypto, ERC20, Ethereum, Decentralize, Solana, SOL, SPL, Cross-Chain, Trading, Fastest, Fast, SerumBTC, SerumUSD, SRM Tokens, SPL Tokens"
         />
         <meta
           name="description"
-          content="Mango Markets - Decentralised, cross-margin trading up to 10x leverage with lightning speed and near-zero fees."
+          content="Lagrange offers a fully decentralized 24/7 FX market that does not require any broker or settlement periods."
         />
         <link
           rel="apple-touch-icon"
@@ -207,9 +208,9 @@ function App({ Component, pageProps }) {
                 <GlobalNotification />
                 <Component {...pageProps} />
               </div>
-              <div className="fixed bottom-0 left-0 z-20 w-full md:hidden">
+              {/* <div className="fixed bottom-0 left-0 z-20 w-full md:hidden">
                 <BottomBar />
-              </div>
+              </div> */}
 
               <Notifications />
             </ViewportProvider>
