@@ -3,6 +3,7 @@
     "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
+    "checkJs": false,
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
@@ -13,8 +14,7 @@
     "resolveJsonModule": true,
     "jsx": "preserve",
     "isolatedModules": true,
-    "incremental": true,
-    "skipDefaultLibCheck": true
+    "incremental": true
   },
   "exclude": ["node_modules", ".next", "out", "public/datafeeds"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"]
