@@ -44,6 +44,7 @@ import { useTranslation } from 'next-i18next'
 import Tabs from './Tabs'
 import SwapTokenInsights from './SwapTokenInsights'
 import { useWallet } from '@solana/wallet-adapter-react'
+// @ts-ignore
 import { handleWalletConnect } from 'components/ConnectWalletButton'
 
 const TABS = ['Market Data', 'Performance Insights']
