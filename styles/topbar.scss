@@ -5,7 +5,7 @@
   z-index: 1000;
   background: #000000;
   padding: 15px 20px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1100px) {
     display: block;
     padding: 7px 20px;
   }
@@ -14,7 +14,7 @@
     display: none;
     color: #fff;
     margin-left: 20px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1100px) {
       display: block;
     }
     i {
@@ -30,7 +30,7 @@
     font-size: 40px;
     font-weight: 700;
     color: #fff;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1100px) {
       display: block;
     }
   }
@@ -43,7 +43,7 @@
     img {
       width: clamp(100px, 100px + 12.8571vw, 280px);
       height: 68px;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1100) {
         height: 38px;
       }
       object-fit: contain;
@@ -56,7 +56,7 @@
       @media screen and (max-width: 1200px) {
         font-weight: 500;
       }
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1100px) {
         @include displayflex($fd: column, $ai: center, $jc: flex-start);
         position: fixed;
         right: 0%; //other ideya right:0%; width:0% jquery => width:55%
@@ -77,6 +77,7 @@
       }
       li {
         color: #FFFFFFB2;
+        @include font( $fm: 'Roboto', $fw: 500, $fs: clamp(16px, 1.5277vw, 22px), $c: rgba(255, 255, 255, 0.7), $ta: center, $ls: 0.3);
         margin-right: clamp(20px, 6.25vw, 90px);
         &:hover {
           color: #d1d1d1;
@@ -90,12 +91,12 @@
         &:first-child {
           margin-right: 0px;
           margin-top: 0px;
-          @media screen and (max-width: 768px) {
+          @media screen and (max-width: 1100px) {
             @include displayflex($ai: center, $jc: flex-end);
             width: 100%;
           }
         }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1100px) {
           margin-right: 0px;
           margin-top: 50px;
           font-size: 20px;
@@ -106,6 +107,7 @@
   .ConnectWalletButton {
     .walletlist {
       font-size: clamp(12px, 1.25vw, 18px);
+      border: 1px solid red;
       font-weight: 600;
       border-radius: 0px !important;
       display: flex;
@@ -160,7 +162,7 @@
         #ffcba5 97.03%
       );
       border-radius: 4px;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1100px) {
         font-size: clamp(20px, 1.7361vw, 25px);
         width: clamp(180px, 19.93vw, 287px);
       }

@@ -54,7 +54,7 @@ export default function RecentMarketTrades() {
     <>
       {/*<ElementTitle>{t('recent-trades')}</ElementTitle>*/}
       <div className="recent-market-trade-title">{t('recent-trades')}</div>
-      <div className={`recent-market-trade-numbers-title mb-2 grid grid-cols-3 text-xs text-th-fgd-4`}>
+      <div className={`recent-market-trade-numbers-title grid grid-cols-3`}>
         <div>{`${t('price')} (${mangoConfig.quoteSymbol})`} </div>
         <div className={`text-right`}>
           {t('size')} ({marketConfig.baseSymbol})

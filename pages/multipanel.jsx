@@ -134,12 +134,12 @@ export default function Multipanel() {
 											<div className="three-num"><i  className="fa-solid fa-caret-down"></i> {data.threeNum}</div>
 											<div className="fourth-num">{data.fourthNum}</div>
 										</div>
-										<div className="fourthly-num">
+										{/*<div className="fourthly-num">
 											<div className="one-num">{data.oneNum}</div>
 											<div className="two-num"><i  className="fa-solid fa-caret-up"></i> {data.twoNum}</div>
 											<div className="three-num"><i  className="fa-solid fa-caret-down"></i> {data.threeNum}</div>
 											<div className="fourth-num">{data.fourthNum}</div>
-										</div>
+										</div>*/}
 										<div className="sub-add">
 											<div className="sub-add-button"> - </div>
 											<div className="sub-add-button"> + </div>

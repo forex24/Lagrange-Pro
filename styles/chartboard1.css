@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Roboto:wght@400;500&family=Source+Code+Pro:wght@300&display=swap');
+.general1{
+  padding: 20px;
+}
+.spot {
+  font-size: clamp(15px, 1.5277vw, 22px);
+  font-family: "Roboto";
+}
+.table-div{
+  width: 100%;
+}
+table{
+  width: 100%;
+}
+table tr th{
+  text-align: center;
+  font-family: "Roboto";
+  font-size: clamp(16px, 1.5277vw, 22px);
+  font-weight: 400;
+  color: #979797;
+}
+table tr td{
+  /* border: 1px solid red; */
+  text-align: center;
+  font-family: "Roboto";
+  font-size: clamp(16px, 1.5277vw, 22px);
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.first-td{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 0px;
+}
+.img-div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.img-div img{
+  width: clamp(25px, 2.4305vw, 35px);
+  height: clamp(25px, 2.4305vw, 35px);
+  margin-right: 14px;
+}
+.div-button{
+  display: flex;
+  margin: 0 0 0 118px;
+}
+.btn-btn2{
+  margin: 0 0 0 14px;
+}
+.btn-btn1, .btn-btn2{
+  width: clamp(70px, 9.0277vw, 130px);
+  height: clamp(20px, 2.0833vw, 30px);
+  border-radius: 4px;
+  background: #14563A;
+  color: #2DFFA7;
+  border: none;
+}
+.light-dark-persent{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;   
+  margin-bottom: 28px;
+}
+.light-green{
+  width: 47.5%;
+  height: 6px;
+  background: #2DFFA7;
+  border-radius: 25px;
+}
+.dark-green{
+  width: 47.5%;
+  height: 6px;
+  background: #14563A;
+  border-radius: 25px;
+}
+.persent111{
+  width: 5%;
+  text-align: right;
+  font-size: clamp(16px, 1.5277vw, 22px);
+}
+@media (max-width: 1000px) {
+  .div-button{
+    margin: 0 0 0 30px;
+  }
+}
+@media (max-width: 860px) {
+  .light-green{
+    width: 42%;
+  }
+  .dark-green{
+    width: 42%;
+  }
+  .persent111{
+    width: 16%;
+  }
+}
+@media (max-width: 750px) {
+  .table-div{
+    overflow-x: scroll;
+  }
+  .table-div::-webkit-scrollbar {
+    height: 4px;
+    background-color: var(--bkg-1);
+  }
+
+  .table-div::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+  }
+
+  .table-div::-webkit-scrollbar-track {
+    background-color: inherit;
+  }
+
+  .table-div::-webkit-scrollbar-corner {
+    background-color: var(--bkg-3);
+  }
+
+  table{
+    width: 802px;
+  }
+}

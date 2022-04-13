@@ -212,10 +212,10 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-corner {
   background-color: var(--bkg-3);
 }
-
 .thin-scroll::-webkit-scrollbar {
   width: 4px;
 }
+
 
 /* Track */
 .thin-scroll::-webkit-scrollbar-track {

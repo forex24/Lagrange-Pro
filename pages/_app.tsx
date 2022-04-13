@@ -46,6 +46,9 @@ import '../styles/homepage.scss'
 import '../styles/tabs.scss'
 import '../styles/multipanel.scss'
 import '../styles/topbar.scss'
+import '../styles/header.css' 
+import '../styles/chartboard1.css'
+import '../styles/chartboard2.css'
 import 'tailwindcss/tailwind.css'
 
 

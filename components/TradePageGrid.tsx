@@ -13,6 +13,7 @@ import { useEffect, useState } from 'react'
 import FloatingElement from '../components/FloatingElement'
 import Orderbook from '../components/Orderbook'
 import AccountInfo from './AccountInfo'
+import Footer from './Footer'
 import UserMarketInfo from './UserMarketInfo'
 import TradeForm from './trade_form/TradeForm'
 import UserInfo from './UserInfo'
@@ -122,21 +123,8 @@ const TradePageGrid: React.FC = () => {
 
 
   return !isMobile ? (
-    <>
-     
-      <div className="responsive-design-grid-layout"
-        // layouts={savedLayouts ? savedLayouts : defaultLayouts}
-        // breakpoints={breakpoints}
-        // cols={{ xl: 12, lg: 12, md: 12, sm: 12 }}
-        // rowHeight={15}
-        // isDraggable={!uiLocked}
-        // isResizable={!uiLocked}
-        // onBreakpointChange={(newBreakpoint) =>
-        //   onBreakpointChange(newBreakpoint)
-        // }
-        // onLayoutChange={(layout, layouts) => onLayoutChange(layouts)}
-        // measureBeforeMount
-      >
+    <> 
+      <div className="responsive-design-grid-layout">
         <div className="one-line">
           <div key="tvChart">
             <FloatingElement className="chart1">
@@ -176,6 +164,7 @@ const TradePageGrid: React.FC = () => {
             </FloatingElement>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   ) : (

@@ -15,6 +15,7 @@
     background: #000000;
 }
 .responsive-design-grid-layout{
+    width: 100%;
     @include displayflex($fd: column, $ai: center, $jc: center);
   
 }
@@ -32,7 +33,7 @@
         box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         @include mp($m: 20px 0 0 0);
-        @include media($d: 930px, $w: clamp(350px, 75.2688vw, 700px));
+        @include media($d: 930px, $w: clamp(280px, 75.2688vw, 700px));
     }
     .account-info{
         @include size($w: clamp(300px, 31.25vw, 450px), $h: clamp(380px, 36.0416vw, 519px));
@@ -40,7 +41,7 @@
         box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         @include mp($m: 20px 0 0 15px, $p: 0);
-        @include media($d: 930px, $m: 20px 10px 0 10px, $w: clamp(350px, 48.3870vw, 450px));
+        @include media($d: 930px, $m: 20px 10px 0 10px, $w: clamp(280px, 48.3870vw, 450px));
     }
 }
 .two-line{
@@ -52,7 +53,9 @@
         background: #000000;
         box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        @include media($d: 930px, $w: clamp(350px, 48.3870vw, 450px));
+        // @include media($d: 1300px, $p: 0 0 405px 0);
+        @include media($d: 930px, $w: clamp(280px, 48.3870vw, 450px));
+
     }
     .trade-form-div{
         @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(380px, 29.8611vw, 430px));
@@ -60,7 +63,7 @@
         background: #000000;
         box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        @include media($d: 930px, $w: clamp(350px, 48.3870vw, 450px));
+        @include media($d: 930px, $w: clamp(280px, 48.3870vw, 450px));
     }
     .usdt-usdc-position-div{
         @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(380px, 29.8611vw, 430px));
@@ -68,7 +71,7 @@
         background: #000000;
         box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        @include media($d: 930px, $w: clamp(350px, 48.3870vw, 450px));
+        @include media($d: 930px, $w: clamp(280px, 48.3870vw, 450px));
     }
 }
 
@@ -77,12 +80,12 @@
     @include media($d: 930px, $fd: column);
     .recent-trade-div{
         @include size($w: clamp(300px, 31.3888vw, 452px), $h: clamp(380px, 33.84027vw, 481px));
-        @include mp($m: 20px 10px 0 10px, $p: 0);
+        @include mp($m: 20px 10px 0 10px, $p: 0 0 20px 0);
         background: #000000;
         box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         @include media($d: 1300px, $p: 0 0 15px 0);
-        @include media($d: 930px, $w: clamp(350px, 48.3870vw, 450px));
+        @include media($d: 930px, $w: clamp(280px, 48.3870vw, 450px));
     }
     .balances-orders-fixed{
         @include size($w: clamp(300px, 64.375vw, 927px), $h: clamp(380px, 33.84027vw, 481px));
@@ -90,7 +93,7 @@
         background: #000000;
         box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        @include media($d: 930px, $w: clamp(350px, 75.2688vw, 700px));
+        @include media($d: 930px, $w: clamp(280px, 75.2688vw, 700px));
     }
 }
 
@@ -153,8 +156,11 @@
 }
 .orderbook-numbers-general{
     @include size($h: 86%);
-     @include media($d: 768px, $h: 80%);
+    @include media($d: 768px, $h: 80%);
+    // overflow-y: scroll;
+    // border: 1px solid red;
     .orderbook-div-numbers{
+        // border: 1px solid red;
         @include size($h: 100%);
     }
 }
@@ -164,11 +170,13 @@
      @include mp($m: 6px 0 0 0);
 }
 .counts-back-green{
+    // height: clamp(15px, 1.4583vw, 21px);
     @include mp($m: 6px 0 0 0, $p: 0 10px 0 20px);
     background: rgba(25, 158, 54, 1);
     @include font( $fm: "Roboto", $fw: 400, $fs: clamp(13px, 1.25vw, 18px)!important, $c: #FFFFFF, $ls: 0.3px);
 }
 .counts-back-red{
+    // height: clamp(15px, 1.4583vw, 21px);
     @include mp($m: 6px 0 0 0, $p: 0 20px 0 10px);
     background: rgba(158, 25, 25, 1);
     @include font( $fm: "Roboto", $fw: 400, $fs: clamp(13px, 1.25vw, 18px)!important, $c: #FFFFFF, $ls: 0.3px);
@@ -290,9 +298,6 @@
 
 
 // ----------------Recent Market Trades Styles Start--------------------------
-.recent-market-trade-general{
-   
-}
 .recent-market-trade-title{
     @include mp($p: 20px);
     @include font( $fm: "Roboto", $fw: 500, $fs: clamp(18px, 2.4305vw, 35px), $c: #FFFFFF, $ta: left, $ls: 0.3px);
@@ -303,7 +308,9 @@
 }
 .recent-market-trade-numbers{
     @include mp($p: 0 10px 0 20px);
-    height: 79%;
+    height: 74%;
+    // @include media($d: 1400px, $h: 74%);
+    // border: 1px solid red;
     overflow-y: scroll;
     @include font( $fm: "Roboto", $fw: 400, $fs: clamp(14px, 1.25vw, 18px), $c: #FFFFFF, $ls: 0.3px);
 }
@@ -344,7 +351,7 @@
     }
     .balances-nav{
         @include mp($p: 25px 0 23px 0, $m: 0px auto);
-        @include font( $fm: "Roboto", $fw: 500, $fs: clamp(12px, 1.3888vw, 20px), $c: #FFFFFF, $ta: left, $ls: 0.3px);
+        @include font( $fm: "Roboto", $fw: 500, $fs: clamp(10px, 1.3888vw, 20px), $c: #FFFFFF, $ta: left, $ls: 0.3px);
     }
     .active-tab-color{
         color: #CCC51B;

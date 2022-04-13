@@ -4,23 +4,17 @@ import Link from 'next/link'
 // @ts-ignore
 import { ConnectWalletButton } from 'components'
 import { useRouter } from 'next/router'
-
-
 const TopBar = () => {
   const [a, setA] = useState(false)
   const router = useRouter()
   const [matches, setMatches] = useState(
-    window.matchMedia('(max-width: 768px)').matches
+    window.matchMedia('(max-width: 1100px)').matches
   )
-
-
   useEffect(() => {
     window
-      .matchMedia('(min-width: 768px)')
+      .matchMedia('(min-width: 1100px)')
       .addEventListener('change', (e) => setMatches(e.matches))
   }, [])
-
-  
 
   const burger = (e) => {
     setA((prevState) => !prevState)

@@ -4,9 +4,11 @@ const Footer = () => {
       <div
         style={{
           display: 'flex',
+          flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
-          marginTop: 'clamp(20px,6.94vw,100px)',
+          width: '100%',
+          height: 'clamp(70px, 9.5138vw, 137px)'
         }}
         className="Footer"
       >
@@ -46,6 +48,17 @@ const Footer = () => {
             }}
             src="/assets/twitter.png"
           />
+        </div>
+        <div 
+          style={{
+            fontFamily: 'Roboto', 
+            fontSize: 'clamp(14px, 1.25vw, 18px)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            margin: '10px 0 0 0'
+           }}>
+          All rights reserved 2022
         </div>
       </div>
     </>
