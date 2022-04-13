@@ -1,3 +1,6 @@
+// const colors = require('tailwindcss/colors')
+// const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -5,9 +8,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      display: ['Roboto, sans-serif'],
-      body: ['Roboto, sans-serif'],
-      lagrange: ['Montserrat', 'sans-serif'],
+      display: ['Lato, sans-serif'],
+      body: ['Lato, sans-serif'],
     },
     extend: {
       animation: {
@@ -19,31 +21,6 @@ module.exports = {
       },
       colors: {
         'light-theme': {
-          lagrangenavcolor: '#007D5E',
-          lagrangewalletcolor: '#242424',
-          lagrangelight: '#29E1AA26',
-          lagrangedark: '#1A8BFD26',
-          lagrangeborder: '#343A40',
-          lagrangegraybackground: '#373737',
-          lagrangepurple: '#4D54F9',
-          lagrangepurpledark: '#2B30B9',
-          lagrangesidebarmobile: '#E1F0FF',
-          lagrangered: '#D70000',
-          lagrangechartcolor: '#7459D91A',
-          lagrangesidebarlightopacity: '#1A8BFD26',
-          lagrangesidebardarkopacity: '#30D6B126',
-          lagrangebuttondarkblue: '#0F1262',
-          lagrangebuttongray: '#373737',
-          lagrangeswapbutton: '#2B30B9',
-          lagrangesidebarpoolmenucolor: '#343A400D',
-          lagrangesidebarbuttonbackgroundcolor: '#1C1C1C',
-          lagrangebuttonproblue: '#7BFCC5',
-          lagrangebuttonpropurple: '#9844FE',
-          lagrangeswapbuttoncolor: '#0F1262',
-          lagrangesidebarmenufontcolor: '#3D3D3D',
-          lagrangewalletbuttonbordercolor: '#2EDAAF',
-          lagrangemenufontcolor: '#5B5B5B',
-          lagrangemenufontcolorhover: '#007D5E',
           orange: {
             DEFAULT: '#FF9C24',
             dark: '#F58700',
@@ -93,7 +70,7 @@ module.exports = {
           'fgd-1': '#E5E3EC',
           'fgd-2': '#D2CEDE',
           'fgd-3': '#C1BED3',
-          'fgd-4': '#706C81',
+          'fgd-4': '#7E7A90',
           'bkg-button': '#464063',
         },
         'th-bkg-1': 'var(--bkg-1)',
