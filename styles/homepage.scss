@@ -194,7 +194,7 @@
         @include font( $fm: "Roboto", $fw: 500, $fs: clamp(18px, 2.4305vw, 35px), $c: #FFFFFF, $ta: left, $ls: 0.3px);
     }
     .buy-sell-title{
-        @include mp($m: 14px 0 0 0);
+        // @include mp($m: 9px 0 0 0);
         border-bottom: 1px solid rgba(90, 90, 90, 1);
         .active-buy-sel-border{
             border-bottom: 2px solid #06CB3D!important;
@@ -214,6 +214,7 @@
         .select-option-border{
             border: 1px solid #FFFFFF;
             border-radius: 4px;
+            padding-left: 8px;
             @include size($w: clamp(130px, 13.6111vw, 196px), $h: clamp(35px, 3.3333vw, 48px));
             @include media($d: 930px, $w: 100%, $h: 30px);
             .select-option-words{
@@ -246,25 +247,25 @@
         @include mp($m: clamp(5px, 0.6944vw, 10px) 0 0 0);
         @include displayflex($fd: row, $ai: center, $jc: flex-start);
     }
-    .ioc-check{
-        margin-top: 2px;
-    }
+    // .ioc-check{
+    //     margin-top: 2px;
+    // }
     .tradeform-buy-buton{
         background: #787878;
         border-radius: 4px;
         @include mp($m: clamp(8px, 1.0416vw, 15px) auto 0);
         @include font( $fm: "Roboto", $fw: 400, $fs: clamp(15px, 1.3888vw, 20px), $c: #FFFFFF, $ta: left, $ls: 0.3px);
-        @include size($w: clamp(270px, 27.7777vw, 400px), $h: clamp(25px, 2.7083vw, 39px));
+        @include size($w: clamp(220px, 27.7777vw, 400px), $h: clamp(25px, 2.7083vw, 39px));
     }
     .tradeform-persent-text-general{
-        width: 100%;
-        @include mp($m: clamp(5px,0.9722vw, 14px) 0 0 0);
+        // width: 100%;
+        // @include mp($m: clamp(5px,0.9722vw, 14px) 0 0 0);
         @include displayflex($fd: row, $ai: center, $jc: space-between);
-        @include size($w: clamp(270px, 28.6111vw, 412px), $h: 30px);
+        @include size($w: clamp(240px, 28.6111vw, 412px), $h: 30px);
         .tradeform-persent-text{
             background: #0E0E0E;
             border-radius: 4px;
-            @include size($w: clamp(51px, 4.9305vw, 71px)!important, $h: 19px);
+            @include size($w: clamp(45px, 4.9305vw, 71px)!important, $h: 19px);
             @include font( $fm: "Roboto", $fw: 400, $fs: clamp(11px, 0.9722vw, 14px), $c: #FFFFFF, $ta: center, $ls: 0.3px);
         }
     }

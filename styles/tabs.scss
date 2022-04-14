@@ -1,7 +1,7 @@
 @import "./formul.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-.GeneralTabs{
 
+.GeneralTabs{
 	.ConnectWalletButton {
 		button {
 			font-family: 'Roboto';
@@ -49,29 +49,18 @@
 			}
 		  }
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-	@include size($w: clamp(350px, 95.7638vw, 1379px), $h: clamp(300px, 33.4027vw, 481px));
-	@include mp($p: 21px 27px 37px 32px, $m: auto);
+	// $w: clamp(200px, 95.7638vw, 1379px),
+	@include size($h: clamp(300px, 33.4027vw, 481px));
+	@include mp($p: clamp(10px, 1.4583vw, 21px) clamp(10px, 1.875vw, 27px) clamp(10px, 2.5694vw, 37px) clamp(10px, 2.2222vw, 32px), $m: auto);
     border-radius: 4px;
 	background: #000000;
 	// border: 1px solid red;
 	.TabList{      	
 		.Tab{
-			@include size($w: clamp(100px, 18.2638vw, 263px));
-			border: 0px ;
+			@include size($w: clamp(90px, 18.2638vw, 263px));
+			border: 0px;
 			border-radius: 0;
-			@include font($fm: "Roboto", $fw: 700, $fs: clamp(14px, 1.3888vw, 20px), $c: #888888, $ta: center, $ls: 0.3px);
+			@include font($fm: "Roboto", $fw: 700, $fs: clamp(13px, 1.3888vw, 20px), $c: #888888, $ta: center, $ls: 0.3px);
 		}
 		.tabactive{
 	      color:#CCC51B;
@@ -79,7 +68,11 @@
 	}
 	.partTwo-main{
 		@include displayflex($ai: center, $jc: center);
-		@include size($w: 100%, $h: clamp(280px, 25.5555vw, 368px));
+		@include size($w: 100%, $h: clamp(225px, 25.5555vw, 368px));
+		@media screen and (max-width: 370px) {
+			@include size($w: 100%, $h: clamp(200px, 25.5555vw, 368px));
+		}
+
 		@include mp($m: 28px 0 0 0);
 		background: #161616;
 		border-radius: 8px;
