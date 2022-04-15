@@ -28,7 +28,7 @@ const Chartboard1 = () => {
               <td>$17.21</td>
             </tr>
             <tr>
-              <td colspan="7">
+              <td colSpan="7">
                 <div className="light-dark-persent">
                   <div className="light-green"></div>
                   <div className="dark-green"></div>
@@ -48,7 +48,7 @@ const Chartboard1 = () => {
               <td>$17.21</td>
             </tr>
             <tr>
-              <td colspan="4">
+              <td colSpan="4">
                 <div className="light-dark-persent">
                   <div className="light-green"></div>
                   <div className="dark-green"></div>
@@ -68,7 +68,7 @@ const Chartboard1 = () => {
               <td>$17.21</td>
             </tr>
             <tr>
-              <td colspan="4">
+              <td colSpan="4">
                 <div className="light-dark-persent">
                   <div className="light-green"></div>
                   <div className="dark-green"></div>
@@ -88,7 +88,7 @@ const Chartboard1 = () => {
               <td>$17.21</td>
             </tr>
             <tr>
-              <td colspan="4">
+              <td colSpan="4">
                 <div className="light-dark-persent">
                   <div className="light-green"></div>
                   <div className="dark-green"></div>
@@ -108,7 +108,7 @@ const Chartboard1 = () => {
               <td>$17.21</td>
             </tr>
             <tr>
-              <td colspan="4">
+              <td colSpan="4">
                 <div className="light-dark-persent">
                   <div className="light-green"></div>
                   <div className="dark-green"></div>
