@@ -3,7 +3,6 @@
   "author": "@erikdstock",
   "license": "MIT",
   "version": "1.0.0",
-  "homepaage": "https://lagrange-fi.github.io",
   "scripts": {
     "dev": "next dev",
     "devnet": "NEXT_PUBLIC_CLUSTER=devnet NEXT_PUBLIC_ENDPOINT=https://mango.devnet.rpcpool.com/ NEXT_PUBLIC_GROUP=devnet.2 next dev",
@@ -15,9 +14,7 @@
     "lint": "eslint . --ext ts --ext tsx --ext js --quiet",
     "lint-staged": "lint-staged --config lint-staged.js",
     "lint-all": "yarn lint && yarn type-check",
-    "analyze": "ANALYZE=true yarn build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "analyze": "ANALYZE=true yarn build"
   },
   "dependencies": {
     "@blockworks-foundation/mango-client": "^3.4.0",
