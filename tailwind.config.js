@@ -7,10 +7,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    fontFamily: {
-      display: ['Lato, sans-serif'],
-      body: ['Lato, sans-serif'],
-    },
+    
     extend: {
       animation: {
         shake: 'shake 0.4s linear 4',

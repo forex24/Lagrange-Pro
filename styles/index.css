@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 /* Theme */
 
@@ -70,7 +71,7 @@
 /* Base */
 
 body {
-  @apply font-body text-sm tracking-wider;
+  font-family: "Roboto"!important;
   background: #161616;
   color: #FFFFFF;
   /*background: red;*/
@@ -417,9 +418,7 @@ body::-webkit-scrollbar-corner {
 
 /* Intro Tour */
 
-.intro-tooltip * {
-  @apply bg-th-bkg-1 font-body text-th-fgd-1;
-}
+
 
 .introjs-tooltip {
   @apply bg-transparent;
@@ -471,13 +470,9 @@ body::-webkit-scrollbar-corner {
   @apply bg-th-primary;
 }
 
-.intro-tooltip h4 {
-  @apply mb-2 font-body text-lg font-bold;
-}
 
-.intro-tooltip p {
-  @apply mb-1 font-body text-sm text-th-fgd-3;
-}
+
+
 
 .introjs-bullets ul li a {
   @apply bg-th-bkg-4;
